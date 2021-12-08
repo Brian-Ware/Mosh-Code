@@ -79,16 +79,24 @@
 // console.log(output)
 
 // Excercise 4 Demerit Points:
-function checkSpeed(speed) {
-  const speedLimit = 70;
-  const kmPerPoint = 7;
-  if (speed < speedLimit + kmPerPoint) {
-    console.log("Ok");
-    return;
-  }
-  const points = Math.floor((speed - speedLimit) / kmPerPoint);
-  if (points >= 12) console.log("License suspended");
-  else console.log("Points", points);
-}
+// function checkSpeed(speed) {
+//   const speedLimit = 70;
+//   const kmPerPoint = 7;
+//   if (speed < speedLimit + kmPerPoint) {
+//     console.log("Ok");
+//     return;
+//   }
+//   const points = Math.floor((speed - speedLimit) / kmPerPoint);
+//   if (points >= 12) console.log("License suspended");
+//   else console.log("Points", points);
+// }
 
-checkSpeed(140);
+// checkSpeed(140);
+
+// Excercise 5
+// function showNumbers(limit){
+//   for (let i = 0; i <=limit; i++){
+//     if (i % 2 ===0) console.log(i, 'Even')
+//     else console.log(i, 'Odd');
+//   }
+// }
